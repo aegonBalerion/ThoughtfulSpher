@@ -18,6 +18,7 @@ export default function SignIn() {
     try {
       setLoading(true);
       setErrorMessage(null);
+      
       const res = await fetch('/backend/auth/signin', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
