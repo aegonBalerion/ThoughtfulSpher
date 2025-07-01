@@ -17,11 +17,23 @@ export default function Home() {
   return (
     <div>
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
+
+{/*         
         <h1 className='text-3xl font-bold lg:text-6xl'>Welcome to my Blog</h1>
         <p className='text-gray-500 text-xs sm:text-sm'>
           Here you'll find a variety of articles and tutorials on topics such as
           web development, software engineering, and programming languages.
-        </p>
+        </p> */}
+
+<h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight mb-4">
+  Welcome to <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">ThoughtfulSphere</span>
+</h1>
+<p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base max-w-2xl">
+  Dive into a world of code, creativity, and clean thinking. Explore hands-on tutorials, thought-provoking articles, and practical guides on everything from frontend frameworks to software architecture and beyond.
+</p>
+
+
+
         <Link
           to='/search'
           className='text-xs sm:text-sm text-teal-500 font-bold hover:underline'
